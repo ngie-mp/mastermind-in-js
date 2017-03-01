@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/flexboxgrid.css" type="text/css">
+  <link rel="stylesheet" href="css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i" rel="stylesheet">
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+  <title>Mastermind</title>
+</head>
+<body>
+  <div class="row center-xs">
+    <div class="col-xs-6">
+      <header class="col-xs">
+        <h1 class="title">Mastermind game</h1>
+      </header>
+      <div id="grid-wrap" class="col-xs">
+        <div class="grid">
+          <span class="ball col-xs-3 one"></span>
+          <span class="ball col-xs-3 two"></span>
+          <span class="ball col-xs-3 three"></span>
+          <span class="ball col-xs-3 four"></span>
+        </div>
+      </div>
+      <div class="col-xs">
+        <button class="btncheck">Check !</button>
+        <div>
+          <h2>Your result is:</h2>
+          <div class="grid-result">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<div class="col-xs">
+      <div class="colors">
+        <span class="green">
+          <input type="radio" name="color" value="green" id="one">
+          <label for="one"></label>
+        </span>
+        <span class="blue">
+          <input type="radio" name="color" value="blue" id="two">
+          <labe for="two"></labe>
+        </span>
+        <span class="red">
+          <input type="radio" name="color" value="red" id="three">
+          <label for="three"></label>
+        </span>
+        <span class="orange">
+          <input type="radio" name="color" value="orange" id="four">
+          <label for="four"></label>
+        </span>
+        <span class="purple">
+          <input type="radio" name="color" value="purple" id="five">
+          <label for="five"></label>
+        </span>
+        <span class="black">
+          <input type="radio" name="color" value="black" id="six">
+          <label for="six"></label>
+        </span>
+      </div>
+    </div>-->
+  </div>
+</body>
+</html>
